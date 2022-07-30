@@ -1,0 +1,39 @@
+.cool-component {
+  display: grid;
+  height: 10rem;
+  row-gap: 0.5rem;
+  width: 18rem;
+  border-radius: 0.5rem;
+  place-items: center;
+  place-content: center;
+
+  background-color: #4ade8e;
+  color: #14532d;
+
+  &:disabled {
+    color: #1f2937;
+    background-color: #6b7280;
+  }
+
+  div {
+    display: flex;
+  }
+
+  span {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+}
+
+.star {
+  animation: cool-component-star-spin 1s linear infinite;
+}
+
+@keyframes cool-component-star-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
