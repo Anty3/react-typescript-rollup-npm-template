@@ -1,5 +1,5 @@
 # react-typescript-rollup-npm-template
-![GitHub license](https://img.shields.io/github/license/Anty3/react-typescript-rollup-npm-template?style=flat)
+![GitHub license](https://img.shields.io/github/license/yet3/react-typescript-rollup-npm-template?style=flat)
 
 A base to start development of react npm package.
 
