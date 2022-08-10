@@ -1,5 +1,5 @@
 {
-  "name": "@yet/react-typescript-rollup-npm-template",
+  "name": "@yet3/react-typescript-rollup-npm-template",
   "version": "1.0.0",
   "author": "anty3",
   "license": "MIT",
@@ -11,7 +11,7 @@
     "dev": "rm -rf ./dist && concurrently \"rollup -c -w\" \"cd ./example && yarn dev\"",
     "format": "prettier --write \"./src/**/*.{ts,tsx,js,jsx}\" \"./example/**/*.{ts,tsx,js,jsx,html}\"",
     "test": "jest",
-    "prepare": "husky install"
+    "prepare": "npm run build"
   },
   "peerDependencies": {
     "react": ">=16",
