@@ -3,7 +3,7 @@
 
 A base to start development of react npm package.
 
-## Includes
+### Includes
 - Rollup
   - Outputs: esm, cjs
   - Scss
@@ -13,28 +13,31 @@ A base to start development of react npm package.
 - Husky
 - Prettier
 - Jest
+  - React Testing Library
+  - jest-environment-jsdom
 - Example project
   - React
   - Typescript/Javascript
   - Vite
   - TailwindCSS
 
-## Installation
+### Installation
 ```sh
-git clone https://github.com/Anty3/react-typescript-rollup-npm-template.git
+git clone https://github.com/yet3/react-typescript-rollup-npm-template.git
 cd react-typescript-rollup-npm-template && yarn
 ```
 
-## Commands
+### Commands
 - build - build package
-- dev - watch and build package while concurrenlty running example project (remember to run ```yarn``` in 'example' directory)
+- dev - watch and build package while concurrently running example project (remember to run ```yarn``` once in 'example' directory before this command)
 - format - format entire project (including 'example')
 - test - run all tests
 
-## Directory structure
+### Directory structure
 ```tree
-├── .husky      Husky's configuration
-├── example     Example react project
-├── src         Package's source code
-└── tests       Package's tests
+├── .husky          Husky's configuration
+├── dist            Output directory
+├── example         Example react project
+├── src             Source code
+└── __tests__       Tests
 ```
