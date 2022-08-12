@@ -1,6 +1,4 @@
-import './index.css';
 import { useState } from 'react';
-import { createRoot } from 'react-dom/client';
 import { CoolComponent, CoolComponentVariant } from '../../src';
 
 const App = () => {
@@ -37,5 +35,4 @@ const App = () => {
   );
 };
 
-const root = createRoot(document.getElementById('root')!);
-root.render(<App />);
+export { App };
